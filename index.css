@@ -1,0 +1,613 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Menu de navigacion */
+body {
+    background: #ffffff;
+}
+
+body .MenuPrincipal {
+    background: #ffffff;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding: 21px 144px;
+}
+
+body .MenuPrincipal .logo {
+    border-radius: 5px;
+    height: 52px;
+    width: 250px;
+}
+
+body .MenuPrincipal .logo img {
+    vertical-align: top;
+}
+
+body .MenuPrincipal .logo .isotipo{
+    display: none;
+}
+
+body .MenuPrincipal .MenuItems {
+    align-items: center;
+    display: flex;
+}
+
+body .MenuPrincipal .MenuItems .Items {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 54px 0 0;
+    width: 250px;
+}
+
+body .MenuPrincipal .MenuItems .Items p {
+    color: #118596;
+}
+
+body .MenuPrincipal .MenuItems .Boton {
+    background: #118596;
+    border: 0;
+    border-radius: 5px;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 16px 32px;
+}
+
+body .MenuPrincipal > img .menuHamburguer{
+    display: none;
+}
+/* Menu de navigacion */
+
+body .Section1 {
+    position: relative;
+}
+
+body .Section1 .Imagen img {
+    vertical-align: top;
+    width: 100%;
+}
+
+body .Section1 .Titulo-boton {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 900px;
+}
+
+body .Section1 .Titulo-boton h1 {
+    color: #FFB600;
+    font-size: 48px;
+    text-align: center;
+    width: 100%;
+}
+
+body .Section1 .Titulo-boton .Boton-amarillo {
+    background: #ffb600;
+    border: none;
+    border-radius: 5px;
+    padding: 16px 32px;
+}
+
+body .Beneficios {
+    display: flex;
+    justify-content: space-between;
+    margin: 144px 0;
+    padding: 0 144px;
+    width: 100%;
+}
+
+body .Beneficios .Beneficios-card {
+    align-content: start;
+    display: flex;
+    flex-wrap: wrap;
+    height: 290px;
+    justify-content: center;
+    width: 500px;
+}
+
+body .Beneficios .Beneficios-card span {
+    font-size: 88px;
+    margin-bottom: 24px;
+}
+
+body .Beneficios .Beneficios-card h2 {
+    font-size: 34px;
+    text-align: center;
+    margin-bottom: 24px;
+    width: 100%;
+}
+
+body .Beneficios .Beneficios-card p {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+body .MasInformacion {
+    padding: 89px 144px;
+    background: #f1f1f1;
+    border: #118596;
+    border-radius: 5px;
+}
+
+body .MasInformacion .Contenido {
+    display: flex;
+    flex-wrap: wrap;
+    height: 212px;
+    margin-bottom: 24px;
+}
+
+body .MasInformacion .Contenido .Titulo {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .MasInformacion .Contenido .Titulo > h4 {
+    font-size: 40px;
+    text-align: center;
+    width: 100%;
+}
+
+body .MasInformacion .Contenido .Titulo > span {
+    border: 1px solid #118596;
+    width: 15%;
+}
+
+body .MasInformacion .Contenido > p {
+    font-size: 24px;
+    text-align: center;
+    width: 100%;
+}
+
+body .Cards {
+    display: flex;
+    gap: 24px;
+}
+
+body .Cards .Card1 {
+    background-color: #f1f1f1;
+    display: flex;
+    width: 700px;
+}
+
+body .Cards .Card1 .Imagen-card {
+    flex: 300%;
+}
+
+body .Cards .Card1 .Imagen-card > img {
+    height: 100%;
+    object-fit: cover;
+    vertical-align: top;
+    width: 100%;
+}
+
+body .Cards .Card1 .Contenido-card {
+    align-items: start;
+    display: flex;
+    flex-basis: content;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 55px 34px;
+    width: 100%;
+}
+
+body .Cards .Card1 .Contenido-card > p {
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+body .Cards .Card1 .Contenido-card .Titulo-card {
+    align-items: start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+}
+
+body .Cards .Card1 .Contenido-card .Titulo-card > h4 {
+    font-size: 34px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 5px;
+}
+
+body .Cards .Card1 .Contenido-card .Titulo-card > span {
+    border: 1px solid #000000;
+    width: 50%;
+}
+
+body .Cards .Card1 .Contenido-card button {
+    background: none;
+    border: 2px solid #118596;
+    border-radius: 5px;
+    color: #118596;
+    font-size: large;
+    padding: 16px 32px;
+}
+
+body .informacion {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    justify-content: center;
+    padding: 144px 144px;
+}
+
+body .informacion .Titulo-Linea {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    justify-content: center;
+}
+
+body .informacion .Titulo-Linea > h4 {
+    text-align: center;
+}
+
+body .informacion .Titulo-Linea > span {
+    border: 1px solid #118596;
+    width: 50%; 
+}
+
+body .informacion .Titulo-Linea > p {
+text-align: center;
+width: 1520px;
+height: 78px;
+
+font-family: 'Merriweather Sans';
+font-style: normal;
+font-weight: 300;
+font-size: 24px;
+line-height: 39px;
+}
+
+body .informacion > button{
+    background: none;
+    border: 2px solid #118596;
+    border-radius: 5px;
+    color: #118596;
+    font-size: large;
+    padding: 16px 32px;
+}
+
+body .Footer {
+
+    align-items: center;
+    background: #f1f1f1;
+    display: flex;
+    padding: 100px 200px;
+    justify-content: space-between;
+}
+
+body .Footer .left {
+    
+    width: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+body .Footer .left .terminos-privacidad {
+
+    display: flex;
+    gap: 24px;
+}
+
+body .Footer .left .terminos-privacidad > span {
+    border: 1px solid #118596;
+}
+
+body .Footer .right {
+    
+    display: flex;
+    gap: 24px;
+}
+
+body .Footer .right .enlaces {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+/*media querles*/
+@media only screen and (max-width: 1366px) {  
+    body .MenuPrincipal {
+        padding: 21px 48px;
+        box-sizing: border-box;
+    }
+    body .MenuPrincipal .MenuItems >img {
+        display: unset;
+    }
+
+    body .MenuPrincipal .MenuItems .Items {
+        display: none;
+    }
+
+    body .MenuPrincipal .MenuItems .Boton {
+        display: none;
+    }
+  
+    
+    
+    body .Cards {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+        align-items: center;
+    }
+    
+    body .Footer {
+        display: flex;
+        padding: 0 15px;
+        font-size: 14px;
+    }
+    
+    body .Footer .left {
+    }
+    
+    body .Footer .left .terminos-privacidad {
+    }
+    
+    body .Footer .left .terminos-privacidad > span {
+    }
+    
+    body .Footer .right {
+    }
+    
+    body .Footer .right .enlaces {
+    }
+    
+    
+    
+
+}
+
+@media only screen and (max-width: 830px) {
+    body .MenuPrincipal {
+        padding: 21px 56px;
+        box-sizing: border-box;
+    }
+
+    body .MenuPrincipal .MenuItems >img {
+        display: unset;
+    }
+
+    body .MenuPrincipal .MenuItems .Items {
+        display: none;
+    }
+
+    body .MenuPrincipal .MenuItems .Boton {
+        display: none;
+    }
+
+    body .Section1 {
+        position: relative;
+    }
+    
+    body .Section1 .Imagen img {
+
+    }
+    
+    body .Section1 .Titulo-boton h1 {
+        font-weight: 700;
+        font-size: 20px;
+        margin: 10px;
+        text-align: center;
+        display: grid;
+        justify-content: center;
+        
+    }
+    
+    body .Section1 .Titulo-boton .Boton-amarillo {
+    }
+    
+    body .Beneficios {
+        flex-direction: column;
+    }
+    
+    
+    body .MasInformacion {
+        padding: 10px 0;
+    }
+    
+    body .MasInformacion .Contenido {
+    }
+    
+    body .MasInformacion .Contenido .Titulo {
+        padding: 2px 0;
+    }
+    
+    body .MasInformacion .Contenido .Titulo > h4 {
+    }
+    
+    body .MasInformacion .Contenido .Titulo > span {
+    }
+    
+    body .MasInformacion .Contenido > p {
+        display: grid;
+    }
+    
+    body .Cards {
+        display: flex;
+        flex-direction: column;
+        box-sizing: border-box;
+    }
+    
+    body .Footer {
+        display: flex;
+        padding: 12px 30px;
+        flex-direction: column-reverse;
+    }
+    
+    body .Footer .left {
+        align-items: center;
+        padding: 12px 0;
+    }
+    
+    
+    body .Footer .right {
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 360px) {
+    body .MenuPrincipal {
+        box-sizing: border-box;
+        padding: 0 24px;
+    }
+
+    body .MenuPrincipal .logo .normal {
+        display: none;
+    }
+
+    body .MenuPrincipal .logo .isotipo {
+        display: unset;
+    }
+    body .Section1{
+        position: relative;
+    }
+    
+    body .Section1 .Imagen img {
+        vertical-align: top;
+        width: 100%;
+    }
+    
+    
+    body .Section1 .Titulo-boton h1 {
+        color: #FFB600;
+        font-size: 12px;
+        text-align: center;
+        width: 100%;
+    }
+    
+    body .Section1 .Titulo-boton .Boton-amarillo {
+        background: #ffb600;
+        border: none;
+        border-radius: 5px;
+        padding: 16px 32px;
+    }
+    
+    body .Beneficios {
+        flex-direction: column;
+        padding: 0  0;
+        position: relative;
+        align-items: start;
+        box-sizing: border-box;
+        right: 17%;
+    }
+    
+    body .Beneficios .Beneficios-card h2 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 30px;
+        width: 100%;
+    }
+
+    body .Beneficios .Beneficios-card p {
+        font-size: 16px;
+        text-align: center;
+        width: 60%;
+    }
+    
+    body .MasInformacion {
+        padding: 30px 0;
+    }
+    
+    
+    body .Cards {
+        
+    }
+    
+    body .Cards .Card1 {
+        padding: 20px 0;
+        width: 400px;
+        flex-direction: column-reverse;
+    }
+    
+    
+    body .informacion {
+        padding: 144px 24px;
+    }
+
+    body .MasInformacion .Contenido > p {
+        font-size: 20px;
+        text-align: center;
+        width: 100%;
+        padding: 20px 0;
+    }
+    
+    body .informacion .Titulo-Linea {
+    }
+    
+    body .informacion .Titulo-Linea > h4 {
+        font-size: 40px;
+    }
+    
+    
+    body .informacion .Titulo-Linea > p {
+        font-size: 12px;
+    
+    }
+    
+    body .informacion > p{
+        font-family: 'Merriweather Sans';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 150% */
+        
+        text-align: center;
+    }
+    
+    body .Footer {
+        align-items: center;
+        font-size: 12px;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+    
+    body .Footer .left {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+        gap: 14px;
+        font-size: x-small;
+
+    }
+    
+    body .Footer .left .terminos-privacidad {
+    }
+    
+    body .Footer .left .terminos-privacidad > span {
+    }
+    
+    body .Footer .right {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px 56px;
+        gap: 80px;
+    }
+    
+    body .Footer .right .enlaces {
+    }
+    }
